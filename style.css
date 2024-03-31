@@ -1,0 +1,49 @@
+body {
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    margin: auto;
+    width: 600px;
+    border-radius: 1rem;
+    box-shadow: 1px 3px 8px 1px rgb(0, 0, 0, 0.4);
+    margin-top: 1.2rem;
+    padding: 2rem;
+    overflow: hidden;
+    background-color: #220d25;
+}
+
+.header-title {
+    font-size: 1.4rem;
+    color: #fecd23;
+    text-align: center;
+}
+
+.header-subtitle {
+    font-size: 0.8rem;
+}
+
+.register{
+    background-color: #651c6a;
+}
+
+.register-title{
+
+}
+
+input{
+
+}
+
+input:focus{
+
+}
+
+button {
+    background-color: #1d0c20;
+}
+
+button:hover{
+
+}
