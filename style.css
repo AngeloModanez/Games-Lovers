@@ -5,18 +5,17 @@ body {
 
 .container {
     margin: auto;
-    width: 700px;
+    width: 50%;
     border-radius: 1rem;
     box-shadow: 1px 3px 8px 1px rgb(0, 0, 0, 0.4);
-    margin-top: 1.2rem;
     padding: 2rem;
     overflow: hidden;
     background-color: #220d25;
 }
 
 .header-title {
-    font-size: 1.8rem;
-    font-weight: 400;
+    font-size: 2rem;
+    font-weight: 700;
     color: #fecd23;
     text-align: center;
     margin-bottom: 2rem;
@@ -36,16 +35,16 @@ body {
 }
 
 .register-title {
-    font-size: 1.4rem;
-    font-weight: 500;
+    font-size: 1.8rem;
+    font-weight: 400;
     text-align: center;
     margin-bottom: 1rem;
 }
 
 input {
     padding: 5px;
-    width: 80%;
-    height: 2rem;
+    width: 70%;
+    height: 1.7rem;
     font-size: 1rem;
     border-radius: 5px;
     border: 0;
@@ -54,19 +53,42 @@ input {
 
 input:focus {
     outline: none;
-    box-shadow: 0 0 1rem #19ffff;
+    box-shadow: 0 0 1.5rem #19ffff;
+}
+
+.borda{
+    background-color: #342988;
+    border-radius: 0.7rem;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 2rem;
+    width: 25%;
+    text-align: center;
+}
+
+.coisa{
+    background-color: #3d5dee;
+    padding: 0.5rem;
+    font-size: 1.6rem;
+    font-weight: 600;  
 }
 
 button {
-    background-color: #1d0c20;
+    background-color: #1d0c20 ;
+    padding: 1rem;
+    width: 6rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #ffffff;
 }
 
 button:hover {
     background-color: #651c6a;
+    cursor: pointer;
 }
 
 .credits {
     margin-top: 0.8rem;
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
 }
