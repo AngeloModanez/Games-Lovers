@@ -5,7 +5,7 @@ body {
 
 .container {
     margin: auto;
-    width: 50%;
+    width: 55%;
     border-radius: 1rem;
     box-shadow: 1px 3px 8px 1px rgb(0, 0, 0, 0.4);
     padding: 2rem;
@@ -35,7 +35,7 @@ body {
 }
 
 .register-title {
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: 400;
     text-align: center;
     margin-bottom: 1rem;
@@ -43,10 +43,10 @@ body {
 
 input {
     padding: 5px;
-    width: 70%;
-    height: 1.7rem;
+    width: 80%;
+    height: 1.5rem;
     font-size: 1rem;
-    border-radius: 5px;
+    border-radius: 6px;
     border: 0;
     margin: 10px;
 }
@@ -56,28 +56,32 @@ input:focus {
     box-shadow: 0 0 1.5rem #19ffff;
 }
 
-.borda{
+.flex-container {
+    display: flex;
+}
+
+.border {
     background-color: #342988;
     border-radius: 0.7rem;
     padding: 1rem;
     margin: auto;
+    width: 12rem;
     margin-top: 2rem;
-    width: 25%;
     text-align: center;
 }
 
-.coisa{
+.voting {
     background-color: #3d5dee;
     padding: 0.5rem;
     font-size: 1.6rem;
-    font-weight: 600;  
+    font-weight: 600;
 }
 
 button {
-    background-color: #1d0c20 ;
+    background-color: #1d0c20;
     padding: 1rem;
     width: 6rem;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 1rem;
     color: #ffffff;
 }
@@ -91,4 +95,38 @@ button:hover {
     margin-top: 0.8rem;
     text-align: center;
     font-size: 0.7rem;
+}
+
+@media screen and (max-width: 1380px) {
+    html {
+        font-size: 12px;
+    }
+
+    .register-title {
+        font-size: 15px;
+    }
+
+    input {
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 85%;
+    }
+
+    .border {
+        width: 13.5rem;
+        margin-top: 12px;
+    }
+
+    .voting {
+        padding: 2%;
+    }
+
+    button {
+        width: 6rem;
+    }
+
+    .flex-container {
+        flex-direction: column;
+        width: auto;
+    }
 }
