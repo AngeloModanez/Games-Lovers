@@ -10,7 +10,8 @@ body {
     box-shadow: 1px 3px 8px 1px rgb(0, 0, 0, 0.4);
     padding: 2rem;
     overflow: hidden;
-    background-color: #220d25;
+    background: rgb(101, 28, 106);
+    background: linear-gradient(0deg, rgba(101, 28, 106, 1) 0%, rgba(29, 12, 32, 1) 70%);
 }
 
 .header-title {
@@ -31,7 +32,8 @@ body {
     border-radius: 1rem;
     padding: 1rem;
     overflow: hidden;
-    background-color: #651c6a;
+    background: rgb(29, 12, 32);
+    background: linear-gradient(0deg, rgba(29, 12, 32, 1) 0%, rgba(101, 28, 106, 1) 70%);
 }
 
 .register-title {
@@ -61,20 +63,22 @@ input:focus {
 }
 
 .border {
-    background-color: #342988;
     border-radius: 0.7rem;
     padding: 1rem;
     margin: auto;
     width: 12rem;
     margin-top: 2rem;
     text-align: center;
+    background: rgb(52, 41, 136);
+    background: linear-gradient(0deg, rgba(52, 41, 136, 1) 0%, rgba(38, 55, 219, 1) 100%);
 }
 
 .voting {
-    background-color: #3d5dee;
     padding: 0.5rem;
     font-size: 1.6rem;
     font-weight: 600;
+    background: rgb(114, 205, 254);
+    background: linear-gradient(0deg, rgba(114, 205, 254, 1) 0%, rgba(63, 96, 239, 1) 100%);
 }
 
 button {
@@ -97,7 +101,7 @@ button:hover {
     font-size: 0.7rem;
 }
 
-@media screen and (max-width: 1380px) {
+@media screen and (max-width: 1200px) {
     html {
         font-size: 12px;
     }
